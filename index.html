@@ -7,16 +7,18 @@
 </head>
 
 <body>
-    <div class="aaa">
+    <header class="aaa">
         <img src="./eisenhower-matrix.jpg" alt="TODO">
         <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="centered-main-page-element">
-        <p id="topSectionForAddingElementToList">
-            <label for="new-task">Add Item</label>
-            <input id="new-task" type="text">
-            <button>Add</button>
-        </p>
+    </header>
+    <main class="centered-main-page-element">
+        <h3 id="topSectionForAddingElementToList">Add Item</h3>
+        <ul>
+            <li>
+                <input id="new-task" type="text">
+                <button>Add</button>
+            </li>
+        </ul>
         <h3>Todo</h3>
         <ul id="incompleteTasks">
             <li><input type="checkbox">
@@ -42,7 +44,7 @@
                 <button class="delete"><img src="./remove.svg"></button>
             </li>
         </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
 </body>
 
